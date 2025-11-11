@@ -22,6 +22,7 @@
 
 ### 🌟 *AI-Powered Video Authenticity Analysis* 🌟
 
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-xl.svg)](https://huggingface.co/spaces/Naman712/deepfake-detector)
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Powered-blueviolet?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
