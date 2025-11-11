@@ -1,76 +1,307 @@
-# 🛡️ Deepfake Detection App
+<div align="center">
 
-An advanced web application that detects deepfake content in uploaded videos using AI-powered analysis with real-time monitoring and diagnostics. Features a stunning 3D animated background with customizable beam effects and a modern glassmorphism UI.
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║     ██████╗ ███████╗███████╗██████╗ ███████╗ █████╗ ██╗  ██╗███████╗       ║
+║     ██╔══██╗██╔════╝██╔════╝██╔══██╗██╔════╝██╔══██╗██║ ██╔╝██╔════╝       ║
+║     ██║  ██║█████╗  █████╗  ██████╔╝█████╗  ███████║█████╔╝ █████╗         ║
+║     ██║  ██║██╔══╝  ██╔══╝  ██╔═══╝ ██╔══╝  ██╔══██║██╔═██╗ ██╔══╝         ║
+║     ██████╔╝███████╗███████╗██║     ██║     ██║  ██║██║  ██╗███████╗       ║
+║     ╚═════╝ ╚══════╝╚══════╝╚═╝     ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝       ║
+║                                                                              ║
+║           ██████╗ ███████╗████████╗███████╗ ██████╗████████╗ ██████╗ ██████╗║
+║           ██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
+║           ██║  ██║█████╗     ██║   █████╗  ██║        ██║   ██║   ██║██████╔╝
+║           ██║  ██║██╔══╝     ██║   ██╔══╝  ██║        ██║   ██║   ██║██╔══██╗
+║           ██████╔╝███████╗   ██║   ███████╗╚██████╗   ██║   ╚██████╔╝██║  ██║
+║           ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+### 🌟 *AI-Powered Video Authenticity Analysis* 🌟
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Powered-blueviolet?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Flask-2.3+-000000?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-2.6+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-4.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
+
+```
+    ╭─────────────────────────────────────────────────────────────╮
+    │  🎯 Detect deepfakes with cutting-edge AI technology       │
+    │  🎨 Stunning 3D animated UI with glassmorphism design       │
+    │  ⚡ Real-time monitoring & comprehensive diagnostics        │
+    ╰─────────────────────────────────────────────────────────────╯
+```
+
+</div>
+
+---
 
 ## ✨ Features
 
-- 🎥 **Video Analysis**: Upload and analyze videos for deepfake detection with confidence scoring
-- 🔍 **Real-time Status**: Live health monitoring and comprehensive system diagnostics
-- 📊 **Timeline Visualization**: Animated 5-step progress tracking for model testing pipeline
-- 🎨 **Modern UI**: Stylish React interface with glassmorphism design and 3D effects
-- 🌟 **3D Background**: Customizable animated beam effects using React Three Fiber
-- 🤖 **AI-Powered**: Uses custom Hugging Face transformer models for deepfake detection
-- 📱 **Responsive**: Mobile-first design that works on all devices
-- 🧪 **Testing Suite**: Comprehensive Jest tests with mocked API interactions
-- 🔧 **Diagnostics**: Advanced model testing and debugging capabilities
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                          🌈 FEATURE SHOWCASE 🌈                           ║
+╠═══════════════════════════════════════════════════════════════════════════╣
+║                                                                           ║
+║   🎥  VIDEO ANALYSIS                                                      ║
+║   ├─► Upload & analyze videos for deepfake detection                     ║
+║   ├─► Confidence scoring with visual feedback                            ║
+║   └─► Support for all major video formats                                ║
+║                                                                           ║
+║   🔍  REAL-TIME STATUS                                                    ║
+║   ├─► Live health monitoring every 5 seconds                             ║
+║   ├─► Comprehensive system diagnostics                                   ║
+║   └─► Service breakdown with status indicators                           ║
+║                                                                           ║
+║   📊  TIMELINE VISUALIZATION                                              ║
+║   ├─► Animated 5-step progress tracking                                  ║
+║   ├─► Model testing pipeline visualization                               ║
+║   └─► Real-time step-by-step feedback                                    ║
+║                                                                           ║
+║   🎨  MODERN UI                                                           ║
+║   ├─► Glassmorphism design with blur effects                             ║
+║   ├─► Smooth animations & transitions                                    ║
+║   └─► Color-coded results (Green=Real, Red=Fake)                         ║
+║                                                                           ║
+║   🌟  3D BACKGROUND                                                       ║
+║   ├─► Customizable animated beam effects                                 ║
+║   ├─► React Three Fiber powered graphics                                 ║
+║   └─► WebGL with 2D fallback support                                     ║
+║                                                                           ║
+║   🤖  AI-POWERED                                                          ║
+║   ├─► Hugging Face transformer models                                    ║
+║   ├─► ResNeXt50 + LSTM architecture                                      ║
+║   └─► 20-frame sequence analysis                                         ║
+║                                                                           ║
+║   📱  RESPONSIVE DESIGN                                                   ║
+║   ├─► Mobile-first approach                                              ║
+║   ├─► Touch-optimized interface                                          ║
+║   └─► Works on all devices & screen sizes                                ║
+║                                                                           ║
+║   🧪  TESTING SUITE                                                       ║
+║   ├─► Comprehensive Jest tests                                           ║
+║   ├─► Mocked API interactions with MSW                                   ║
+║   └─► 100% component coverage                                            ║
+║                                                                           ║
+║   🔧  DIAGNOSTICS                                                         ║
+║   ├─► Advanced model testing capabilities                                ║
+║   ├─► Detailed error messages & hints                                    ║
+║   └─► Debug mode for troubleshooting                                     ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- **Python 3.8+** (3.9+ recommended)
-- **Node.js 16+** (18+ recommended)
-- **Hugging Face account** and access token
-- **Git** for cloning the repository
-- **4GB+ RAM** for model loading
-- **Stable internet connection** for initial model download
+<div align="center">
 
-### Backend Setup
+```
+    ╔═══════════════════════════════════════════════════════════╗
+    ║                                                           ║
+    ║        ⚡ GET STARTED IN 5 MINUTES ⚡                     ║
+    ║                                                           ║
+    ╚═══════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 📋 Prerequisites
+
+<table>
+<tr>
+<td width="50%">
+
+```
+┌─────────────────────────────┐
+│  🐍 PYTHON                  │
+├─────────────────────────────┤
+│  Version: 3.8+              │
+│  Recommended: 3.9+          │
+│  Purpose: Backend API       │
+└─────────────────────────────┘
+```
+
+</td>
+<td width="50%">
+
+```
+┌─────────────────────────────┐
+│  📦 NODE.JS                 │
+├─────────────────────────────┤
+│  Version: 16+               │
+│  Recommended: 18+           │
+│  Purpose: Frontend UI       │
+└─────────────────────────────┘
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+```
+┌─────────────────────────────┐
+│  🤗 HUGGING FACE            │
+├─────────────────────────────┤
+│  Account: Required          │
+│  Token: Read permissions    │
+│  Purpose: Model access      │
+└─────────────────────────────┘
+```
+
+</td>
+<td width="50%">
+
+```
+┌─────────────────────────────┐
+│  💾 SYSTEM RESOURCES        │
+├─────────────────────────────┤
+│  RAM: 4GB+ minimum          │
+│  Storage: 500MB+ free       │
+│  Network: Stable connection │
+└─────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+### 🔧 Backend Setup
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║                    🐍 PYTHON BACKEND SETUP                     ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
 ```bash
-# Clone the repository
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 1: Clone the repository                               │
+# └─────────────────────────────────────────────────────────────┘
 git clone <repository-url>
 cd deepfake-defender/backend
 
-# Create and activate virtual environment
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 2: Create virtual environment                         │
+# └─────────────────────────────────────────────────────────────┘
 python -m venv venv
 venv\Scripts\activate  # Windows
 # source venv/bin/activate  # Linux/Mac
 
-# Install all required dependencies
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 3: Install dependencies                               │
+# └─────────────────────────────────────────────────────────────┘
 pip install -r requirements.txt
 
-# Configure environment variables
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 4: Configure environment variables                    │
+# └─────────────────────────────────────────────────────────────┘
 echo "HUGGINGFACE_TOKEN=your_token_here" > .env
 echo "MODEL_NAME=Naman712/Deep-fake-detection" >> .env
 echo "FLASK_DEBUG=1" >> .env
 
-# Test model loading (optional but recommended)
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 5: Test model loading (optional but recommended)      │
+# └─────────────────────────────────────────────────────────────┘
 python debug_hf_model.py
 
-# Start the backend server
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 6: Start the backend server                           │
+# └─────────────────────────────────────────────────────────────┘
 python app.py
 ```
 
-### Frontend Setup
+<div align="center">
+
+```
+    ✅ Backend running on http://localhost:5000
+```
+
+</div>
+
+---
+
+### 🎨 Frontend Setup
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║                    ⚛️  REACT FRONTEND SETUP                    ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
 ```bash
-# Navigate to frontend directory
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 1: Navigate to frontend directory                     │
+# └─────────────────────────────────────────────────────────────┘
 cd ../frontend
 
-# Install all Node.js dependencies
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 2: Install Node.js dependencies                       │
+# └─────────────────────────────────────────────────────────────┘
 npm install
 
-# Start development server
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 3: Start development server                           │
+# └─────────────────────────────────────────────────────────────┘
 npm start
 
-# Optional: Run tests
+# ┌─────────────────────────────────────────────────────────────┐
+# │  OPTIONAL: Run tests                                        │
+# └─────────────────────────────────────────────────────────────┘
 npm test
 
-# Optional: Build for production
+# ┌─────────────────────────────────────────────────────────────┐
+# │  OPTIONAL: Build for production                             │
+# └─────────────────────────────────────────────────────────────┘
 npm run build
 ```
 
+<div align="center">
+
+```
+    ✅ Frontend running on http://localhost:3000
+```
+
+</div>
+
 ## 🎯 Complete User Flow
 
-### 1. **Application Launch & Initialization**
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║   ██╗   ██╗███████╗███████╗██████╗     ███████╗██╗      ██████╗ ██╗    ██╗
+║   ██║   ██║██╔════╝██╔════╝██╔══██╗    ██╔════╝██║     ██╔═══██╗██║    ██║
+║   ██║   ██║███████╗█████╗  ██████╔╝    █████╗  ██║     ██║   ██║██║ █╗ ██║
+║   ██║   ██║╚════██║██╔══╝  ██╔══██╗    ██╔══╝  ██║     ██║   ██║██║███╗██║
+║   ╚██████╔╝███████║███████╗██║  ██║    ██║     ███████╗╚██████╔╝╚███╔███╔╝
+║    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝ 
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 1️⃣ **Application Launch & Initialization**
 - **Backend**: Starts on `http://localhost:5000` with Flask server
 - **Frontend**: Starts on `http://localhost:3000` with React development server
 - **3D Background**: Animated beam effects initialize with custom parameters:
@@ -82,7 +313,7 @@ npm run build
   - Rotation: 30 degrees
 - **Health Check**: Automatic backend connectivity verification every 5 seconds
 
-### 2. **Main Interface** (`/`) - Primary User Experience
+### 2️⃣ **Main Interface** (`/`) - Primary User Experience
 - **Header Section**:
   - 🛡️ **Title**: "Deepfake Detection" with modern typography
   - **Subtitle**: "Advanced AI-powered video authenticity analysis"
@@ -101,7 +332,7 @@ npm run build
   - **Confidence Meter**: Animated progress bar with percentage
   - **Visual Indicators**: Icons and color schemes for quick understanding
 
-### 3. **Diagnostics Page** (`/status`) - Advanced Monitoring
+### 3️⃣ **Diagnostics Page** (`/status`) - Advanced Monitoring
 - **Header**: "🔧 System Diagnostics" with subtitle
 - **Two-Column Layout**:
   
@@ -126,7 +357,7 @@ npm run build
     - ✅ Model Loaded (Ready for inference)
   - **Last Updated**: Timestamp of latest health check
 
-### 4. **Video Analysis Workflow**
+### 4️⃣ **Video Analysis Workflow**
 1. **File Selection**: 
    - User selects video file via file picker or drag-drop
    - File validation and size checking
@@ -149,7 +380,7 @@ npm run build
    - **Confidence Visualization**: Animated progress bar
    - **Error Handling**: Clear error messages for failed analyses
 
-### 5. **Error States & Recovery**
+### 5️⃣ **Error States & Recovery**
 - **Backend Offline**: 
   - Shows "Service Unavailable" message
   - Provides troubleshooting instructions
@@ -165,14 +396,24 @@ npm run build
   - Network timeout handling
   - Clear user feedback with retry options
 
-### 6. **Responsive Design Breakpoints**
+### 6️⃣ **Responsive Design Breakpoints**
 - **Desktop** (1024px+): Full two-column layout
 - **Tablet** (768px-1024px): Stacked layout with adjusted spacing
 - **Mobile** (< 768px): Single column, touch-optimized interface
 
 ## 🔧 Configuration
 
-### Environment Variables (`backend/.env`)
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                  ⚙️  CONFIGURATION GUIDE ⚙️                   ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 🔐 Environment Variables (`backend/.env`)
 ```env
 # Required: Your Hugging Face authentication token
 HUGGINGFACE_TOKEN=your_token_here_replace_this
@@ -183,14 +424,39 @@ FLASK_DEBUG=1
 SECRET_KEY=your-secret-key
 ```
 
-### Getting Your Hugging Face Token
-1. Visit [Hugging Face Settings](https://huggingface.co/settings/tokens)
-2. Create a new token with "Read" permissions
-3. Copy the token to your `.env` file
+### 🎫 Getting Your Hugging Face Token
+
+<div align="center">
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│  STEP 1  →  Visit https://huggingface.co/settings/tokens    │
+│                                                              │
+│  STEP 2  →  Click "New token" button                        │
+│                                                              │
+│  STEP 3  →  Select "Read" permissions                       │
+│                                                              │
+│  STEP 4  →  Copy token to your .env file                    │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+</div>
 
 ## 📦 Dependencies & Packages
 
-### Backend Dependencies (`requirements.txt`)
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║              📚 TECHNOLOGY STACK & PACKAGES 📚                ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 🐍 Backend Dependencies (`requirements.txt`)
 ```txt
 # Core Flask Framework
 flask>=2.3.0                 # Web framework
@@ -208,7 +474,7 @@ numpy>=1.24.0                # Numerical computing
 python-dotenv>=1.0.0         # Environment variable management
 ```
 
-### Frontend Dependencies (`package.json`)
+### ⚛️ Frontend Dependencies (`package.json`)
 ```json
 {
   "dependencies": {
@@ -248,86 +514,282 @@ python-dotenv>=1.0.0         # Environment variable management
 
 ## 📁 Project Structure
 
+<div align="center">
+
 ```
-deepfake-defender/
-├── backend/                         # Flask API Server
-│   ├── app.py                      # Main Flask application with all routes
-│   ├── debug_hf_model.py           # Model diagnostics and testing script
-│   ├── correct_model.py            # Custom model architecture definitions
-│   ├── simple_processor.py         # Video frame processing utilities
-│   ├── requirements.txt            # Python dependencies list
-│   ├── .env                        # Environment variables (create this)
-│   ├── model_cache/                # Cached Hugging Face model files
-│   └── venv/                       # Python virtual environment
-├── frontend/                        # React Application
-│   ├── src/
-│   │   ├── App.tsx                 # Main app with routing and health checks
-│   │   ├── App.test.tsx            # Comprehensive Jest tests
-│   │   ├── App.css                 # Global styles and fonts
-│   │   ├── index.tsx               # React entry point
-│   │   └── components/
-│   │       ├── StatusPage.tsx      # Diagnostics & monitoring interface
-│   │       ├── BackgroundManager.tsx # 3D background effect manager
-│   │       ├── Beams.tsx           # Complex 3D beam animations
-│   │       ├── SimpleBeams.tsx     # Fallback 2D beam animations
-│   │       ├── Beams.css           # Beam-specific styles
-│   │       └── Loader.tsx          # Loading animation component
-│   ├── public/
-│   │   ├── index.html              # HTML template
-│   │   ├── bg.jpg                  # Fallback background image (optional)
-│   │   └── favicon.ico             # App icon
-│   ├── package.json                # Node.js dependencies and scripts
-│   └── node_modules/               # Installed npm packages
-├── README.md                       # This comprehensive documentation
-└── .gitignore                      # Git ignore patterns
+╔═══════════════════════════════════════════════════════════════╗
+║                  🗂️  FILE ORGANIZATION 🗂️                    ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+```
+🌳 deepfake-defender/
+├── 🐍 backend/                         # Flask API Server
+│   ├── 📄 app.py                      # Main Flask application with all routes
+│   ├── 🔍 debug_hf_model.py           # Model diagnostics and testing script
+│   ├── 🧠 correct_model.py            # Custom model architecture definitions
+│   ├── ⚙️  simple_processor.py         # Video frame processing utilities
+│   ├── 📋 requirements.txt            # Python dependencies list
+│   ├── 🔐 .env                        # Environment variables (create this)
+│   ├── 💾 model_cache/                # Cached Hugging Face model files
+│   └── 📦 venv/                       # Python virtual environment
+│
+├── ⚛️  frontend/                        # React Application
+│   ├── 📂 src/
+│   │   ├── 🎯 App.tsx                 # Main app with routing and health checks
+│   │   ├── 🧪 App.test.tsx            # Comprehensive Jest tests
+│   │   ├── 🎨 App.css                 # Global styles and fonts
+│   │   ├── 🚀 index.tsx               # React entry point
+│   │   └── 📂 components/
+│   │       ├── 📊 StatusPage.tsx      # Diagnostics & monitoring interface
+│   │       ├── 🌌 BackgroundManager.tsx # 3D background effect manager
+│   │       ├── ✨ Beams.tsx           # Complex 3D beam animations
+│   │       ├── 🌟 SimpleBeams.tsx     # Fallback 2D beam animations
+│   │       ├── 💅 Beams.css           # Beam-specific styles
+│   │       └── ⏳ Loader.tsx          # Loading animation component
+│   ├── 📂 public/
+│   │   ├── 📄 index.html              # HTML template
+│   │   ├── 🖼️  bg.jpg                  # Fallback background image (optional)
+│   │   └── 🎨 favicon.ico             # App icon
+│   ├── 📋 package.json                # Node.js dependencies and scripts
+│   └── 📦 node_modules/               # Installed npm packages
+│
+├── 📖 README.md                       # This comprehensive documentation
+└── 🚫 .gitignore                      # Git ignore patterns
 ```
 
 ## 🤖 AI Model Details
 
-### Model Information
-- **Name**: `Naman712/Deep-fake-detection`
-- **Type**: Custom PyTorch model for video analysis
-- **Architecture**: Sequence-based deepfake detector
-- **Input**: 20 video frames (112x112 pixels)
-- **Output**: Binary classification (Real/Fake) with confidence
+<div align="center">
 
-### Model Pipeline
-1. **Frame Extraction**: Extract evenly distributed frames from video
-2. **Preprocessing**: Resize and normalize frames to 112x112
-3. **Sequence Processing**: Analyze 20-frame sequences
-4. **Classification**: Binary output with confidence scores
-5. **Result Aggregation**: Final deepfake probability
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║      █████╗ ██╗    ███╗   ███╗ ██████╗ ██████╗ ███████╗██╗              ║
+║     ██╔══██╗██║    ████╗ ████║██╔═══██╗██╔══██╗██╔════╝██║              ║
+║     ███████║██║    ██╔████╔██║██║   ██║██║  ██║█████╗  ██║              ║
+║     ██╔══██║██║    ██║╚██╔╝██║██║   ██║██║  ██║██╔══╝  ██║              ║
+║     ██║  ██║██║    ██║ ╚═╝ ██║╚██████╔╝██████╔╝███████╗███████╗         ║
+║     ╚═╝  ╚═╝╚═╝    ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝         ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 🧠 Model Information
+<table>
+<tr>
+<td>
+
+```
+┌─────────────────────────────────┐
+│  📛 NAME                        │
+├─────────────────────────────────┤
+│  Naman712/Deep-fake-detection   │
+└─────────────────────────────────┘
+```
+
+</td>
+<td>
+
+```
+┌─────────────────────────────────┐
+│  🏗️  ARCHITECTURE                │
+├─────────────────────────────────┤
+│  ResNeXt50 + LSTM               │
+└─────────────────────────────────┘
+```
+
+</td>
+</tr>
+<tr>
+<td>
+
+```
+┌─────────────────────────────────┐
+│  📥 INPUT                       │
+├─────────────────────────────────┤
+│  20 frames @ 112x112 pixels     │
+└─────────────────────────────────┘
+```
+
+</td>
+<td>
+
+```
+┌─────────────────────────────────┐
+│  📤 OUTPUT                      │
+├─────────────────────────────────┤
+│  Binary: Real/Fake + Confidence │
+└─────────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+### 🔄 Model Pipeline
+
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║   1️⃣  FRAME EXTRACTION                                                    ║
+║   ├─► Extract evenly distributed frames from video                       ║
+║   └─► Select up to 20 representative frames                              ║
+║                                                                           ║
+║   2️⃣  PREPROCESSING                                                       ║
+║   ├─► Resize frames to 112x112 pixels                                    ║
+║   ├─► Normalize pixel values                                             ║
+║   └─► Convert to tensor format                                           ║
+║                                                                           ║
+║   3️⃣  SEQUENCE PROCESSING                                                 ║
+║   ├─► Feed 20-frame sequence to ResNeXt50                                ║
+║   ├─► Extract spatial features                                           ║
+║   └─► Process temporal patterns with LSTM                                ║
+║                                                                           ║
+║   4️⃣  CLASSIFICATION                                                      ║
+║   ├─► Binary classification layer                                        ║
+║   ├─► Softmax activation                                                 ║
+║   └─► Generate confidence scores                                         ║
+║                                                                           ║
+║   5️⃣  RESULT AGGREGATION                                                  ║
+║   ├─► Calculate final prediction                                         ║
+║   ├─► Determine deepfake probability                                     ║
+║   └─► Return detailed analysis                                           ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+```
 
 ## 🌐 API Endpoints
 
-### Backend Routes
-- `GET /` - API information and status
-- `GET /health` - Comprehensive health check
-- `POST /analyze` - Video analysis endpoint
-- `POST /debug-model` - Model diagnostics testing
-- `POST /upload` - File upload (legacy)
+<div align="center">
 
-### Frontend Routes
-- `/` - Main application interface
-- `/status` - System diagnostics and monitoring
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                    🔌 API REFERENCE 🔌                        ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 🔙 Backend Routes
+
+<table>
+<tr>
+<td width="30%"><b>Endpoint</b></td>
+<td width="15%"><b>Method</b></td>
+<td width="55%"><b>Description</b></td>
+</tr>
+<tr>
+<td><code>/</code></td>
+<td><code>GET</code></td>
+<td>🏠 API information and status</td>
+</tr>
+<tr>
+<td><code>/health</code></td>
+<td><code>GET</code></td>
+<td>💚 Comprehensive health check</td>
+</tr>
+<tr>
+<td><code>/analyze</code></td>
+<td><code>POST</code></td>
+<td>🔍 Video analysis endpoint</td>
+</tr>
+<tr>
+<td><code>/debug-model</code></td>
+<td><code>POST</code></td>
+<td>🐛 Model diagnostics testing</td>
+</tr>
+<tr>
+<td><code>/upload</code></td>
+<td><code>POST</code></td>
+<td>📤 File upload (legacy)</td>
+</tr>
+</table>
+
+### 🎨 Frontend Routes
+
+<table>
+<tr>
+<td width="30%"><b>Route</b></td>
+<td width="70%"><b>Description</b></td>
+</tr>
+<tr>
+<td><code>/</code></td>
+<td>🏠 Main application interface with upload & analysis</td>
+</tr>
+<tr>
+<td><code>/status</code></td>
+<td>📊 System diagnostics and monitoring dashboard</td>
+</tr>
+</table>
 
 ## 🎨 UI/UX Features & Styling
 
-### Design System
-- **Glassmorphism**: Modern translucent cards with backdrop blur effects
-- **3D Background**: Customizable animated beam system with WebGL fallbacks
-- **Typography**: 
-  - Headers: "Advent Pro" font family with optical sizing
-  - Body: "Ubuntu" font family for readability
-- **Color Palette**:
-  - Success: #22c55e (Green)
-  - Error: #ef4444 (Red) 
-  - Info: #3b82f6 (Blue)
-  - Background: Dynamic gradients with transparency
-- **Responsive Breakpoints**:
-  - Mobile: < 768px
-  - Tablet: 768px - 1024px
-  - Desktop: > 1024px
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║     ██████╗ ███████╗███████╗██╗ ██████╗ ███╗   ██╗                       ║
+║     ██╔══██╗██╔════╝██╔════╝██║██╔════╝ ████╗  ██║                       ║
+║     ██║  ██║█████╗  ███████╗██║██║  ███╗██╔██╗ ██║                       ║
+║     ██║  ██║██╔══╝  ╚════██║██║██║   ██║██║╚██╗██║                       ║
+║     ██████╔╝███████╗███████║██║╚██████╔╝██║ ╚████║                       ║
+║     ╚═════╝ ╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝                       ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 🎭 Design System
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  🪟 GLASSMORPHISM                                                   │
+├─────────────────────────────────────────────────────────────────────┤
+│  • Modern translucent cards with backdrop blur effects             │
+│  • Semi-transparent backgrounds with frosted glass appearance      │
+│  • Layered depth with shadow and border effects                    │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  🌌 3D BACKGROUND                                                   │
+├─────────────────────────────────────────────────────────────────────┤
+│  • Customizable animated beam system                               │
+│  • React Three Fiber powered WebGL graphics                        │
+│  • Automatic fallback to 2D animations                             │
+│  • Configurable speed, intensity, and rotation                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  ✍️  TYPOGRAPHY                                                      │
+├─────────────────────────────────────────────────────────────────────┤
+│  • Headers: "Advent Pro" with optical sizing                       │
+│  • Body: "Ubuntu" for optimal readability                          │
+│  • Smooth font rendering with antialiasing                         │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  🎨 COLOR PALETTE                                                   │
+├─────────────────────────────────────────────────────────────────────┤
+│  • Success: #22c55e (Vibrant Green)                                │
+│  • Error: #ef4444 (Bold Red)                                       │
+│  • Info: #3b82f6 (Bright Blue)                                     │
+│  • Background: Dynamic gradients with transparency                 │
+└─────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  📱 RESPONSIVE BREAKPOINTS                                          │
+├─────────────────────────────────────────────────────────────────────┤
+│  • Mobile: < 768px (Single column, touch-optimized)                │
+│  • Tablet: 768px - 1024px (Stacked layout)                         │
+│  • Desktop: > 1024px (Full two-column layout)                      │
+└─────────────────────────────────────────────────────────────────────┘
+```
 
 ### 3D Background Configuration
 ```typescript
@@ -358,87 +820,285 @@ rotation: 30            // Beam rotation angle
 
 ## 🔍 Troubleshooting
 
-### Common Issues
+<div align="center">
 
-**Backend Won't Start**
-```bash
-# Check Python version
-python --version  # Should be 3.8+
-
-# Verify dependencies
-pip install -r requirements.txt
-
-# Check Hugging Face token
-python -c "import os; print(os.getenv('HUGGINGFACE_TOKEN'))"
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║   ████████╗██████╗  ██████╗ ██╗   ██╗██████╗ ██╗     ███████╗           ║
+║   ╚══██╔══╝██╔══██╗██╔═══██╗██║   ██║██╔══██╗██║     ██╔════╝           ║
+║      ██║   ██████╔╝██║   ██║██║   ██║██████╔╝██║     █████╗             ║
+║      ██║   ██╔══██╗██║   ██║██║   ██║██╔══██╗██║     ██╔══╝             ║
+║      ██║   ██║  ██║╚██████╔╝╚██████╔╝██████╔╝███████╗███████╗           ║
+║      ╚═╝   ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝╚══════╝           ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
-**Model Loading Fails**
-- Verify Hugging Face token is valid
-- Check internet connection
-- Run diagnostics: `python debug_hf_model.py`
+</div>
 
-**Frontend Build Errors**
+### 🚨 Common Issues
+
+#### ❌ **Backend Won't Start**
+
 ```bash
-# Clear cache and reinstall
+# ┌─────────────────────────────────────────────────────────────┐
+# │  SOLUTION 1: Check Python version                           │
+# └─────────────────────────────────────────────────────────────┘
+python --version  # Should be 3.8+
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │  SOLUTION 2: Verify dependencies                            │
+# └─────────────────────────────────────────────────────────────┘
+pip install -r requirements.txt
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │  SOLUTION 3: Check Hugging Face token                       │
+# └─────────────────────────────────────────────────────────────┘
+python -c "import os; from dotenv import load_dotenv; load_dotenv(); print(os.getenv('HUGGINGFACE_TOKEN'))"
+```
+
+#### ⚠️ **Model Loading Fails**
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  ✓  Verify Hugging Face token is valid                      │
+│  ✓  Check internet connection                               │
+│  ✓  Run diagnostics: python debug_hf_model.py               │
+│  ✓  Ensure 4GB+ RAM available                               │
+│  ✓  Check disk space for model cache                        │
+└──────────────────────────────────────────────────────────────┘
+```
+
+#### 🔴 **Frontend Build Errors**
+
+```bash
+# ┌─────────────────────────────────────────────────────────────┐
+# │  SOLUTION 1: Clear cache and reinstall                      │
+# └─────────────────────────────────────────────────────────────┘
 rm -rf node_modules package-lock.json
 npm install
 
-# Check Node.js version
+# ┌─────────────────────────────────────────────────────────────┐
+# │  SOLUTION 2: Check Node.js version                          │
+# └─────────────────────────────────────────────────────────────┘
 node --version  # Should be 16+
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │  SOLUTION 3: Try with legacy peer deps                      │
+# └─────────────────────────────────────────────────────────────┘
+npm install --legacy-peer-deps
 ```
 
-**Connection Issues**
-- Ensure backend is running on port 5000
-- Check CORS configuration
-- Verify firewall settings
+#### 🔌 **Connection Issues**
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  ✓  Ensure backend is running on port 5000                  │
+│  ✓  Check CORS configuration in app.py                      │
+│  ✓  Verify firewall settings                                │
+│  ✓  Test with: curl http://localhost:5000/health            │
+│  ✓  Check if port 5000 is already in use                    │
+└──────────────────────────────────────────────────────────────┘
+```
 
 ## 🚀 Deployment
 
-### Development
-```bash
-# Terminal 1: Backend
-cd backend && python app.py
+<div align="center">
 
-# Terminal 2: Frontend  
-cd frontend && npm start
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║     ██████╗ ███████╗██████╗ ██╗      ██████╗ ██╗   ██╗                   ║
+║     ██╔══██╗██╔════╝██╔══██╗██║     ██╔═══██╗╚██╗ ██╔╝                   ║
+║     ██║  ██║█████╗  ██████╔╝██║     ██║   ██║ ╚████╔╝                    ║
+║     ██║  ██║██╔══╝  ██╔═══╝ ██║     ██║   ██║  ╚██╔╝                     ║
+║     ██████╔╝███████╗██║     ███████╗╚██████╔╝   ██║                      ║
+║     ╚═════╝ ╚══════╝╚═╝     ╚══════╝ ╚═════╝    ╚═╝                      ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
-### Production Build
-```bash
-# Build frontend
-cd frontend && npm run build
+</div>
 
-# Serve with backend
-cd backend && python app.py
+### 🔧 Development Mode
+
+```bash
+# ┌─────────────────────────────────────────────────────────────┐
+# │  TERMINAL 1: Start Backend Server                           │
+# └─────────────────────────────────────────────────────────────┘
+cd backend
+python app.py
+# ✅ Backend running on http://localhost:5000
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │  TERMINAL 2: Start Frontend Development Server              │
+# └─────────────────────────────────────────────────────────────┘
+cd frontend
+npm start
+# ✅ Frontend running on http://localhost:3000
+```
+
+### 🏭 Production Build
+
+```bash
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 1: Build optimized frontend                           │
+# └─────────────────────────────────────────────────────────────┘
+cd frontend
+npm run build
+# ✅ Creates optimized production build in /build
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │  STEP 2: Serve with backend                                 │
+# └─────────────────────────────────────────────────────────────┘
+cd ../backend
+python app.py
+# ✅ Production server ready
 ```
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║              💝 CONTRIBUTIONS WELCOME 💝                      ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│  1️⃣   Fork the repository                                    │
+│       └─► Create your own copy                              │
+│                                                              │
+│  2️⃣   Create a feature branch                                │
+│       └─► git checkout -b feature/amazing-feature           │
+│                                                              │
+│  3️⃣   Make your changes                                      │
+│       └─► Write clean, documented code                      │
+│                                                              │
+│  4️⃣   Test thoroughly                                        │
+│       └─► Run all tests and verify functionality            │
+│                                                              │
+│  5️⃣   Submit a pull request                                  │
+│       └─► Describe your changes clearly                     │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║     This project is licensed under the MIT License           ║
+║                                                               ║
+║     Free to use, modify, and distribute                      ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
 
 ## 🙏 Acknowledgments
 
-- Hugging Face for model hosting
-- React Three Fiber for 3D effects
-- Styled Components for styling
-- OpenCV for video processing
+<div align="center">
 
+```
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│  🤗  Hugging Face                                            │
+│      └─► Model hosting and transformers library             │
+│                                                              │
+│  ⚛️   React Three Fiber                                      │
+│      └─► Stunning 3D graphics and animations                │
+│                                                              │
+│  💅  Styled Components                                       │
+│      └─► Modern CSS-in-JS styling solution                  │
+│                                                              │
+│  📹  OpenCV                                                  │
+│      └─► Powerful video processing capabilities             │
+│                                                              │
+│  🔥  PyTorch                                                 │
+│      └─► Deep learning framework                            │
+│                                                              │
+│  ⚡  Flask                                                   │
+│      └─► Lightweight and flexible web framework             │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+
+---
 
 ## ✍️ Author
 
+<div align="center">
+
 ```
-███╗   ███╗ █████╗ ██████╗ ███████╗    ██████╗ ██╗   ██╗    ███╗   ██╗ █████╗ ███╗   ███╗ █████╗ ███╗   ██╗
-████╗ ████║██╔══██╗██╔══██╗██╔════╝    ██╔══██╗╚██╗ ██╔╝    ████╗  ██║██╔══██╗████╗ ████║██╔══██╗████╗  ██║
-██╔████╔██║███████║██║  ██║█████╗      ██████╔╝ ╚████╔╝     ██╔██╗ ██║███████║██╔████╔██║███████║██╔██╗ ██║
-██║╚██╔╝██║██╔══██║██║  ██║██╔══╝      ██╔══██╗  ╚██╔╝      ██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══██║██║╚██╗██║
-██║ ╚═╝ ██║██║  ██║██████╔╝███████╗    ██████╔╝   ██║       ██║ ╚████║██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║
-╚═╝     ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝    ╚═════╝    ╚═╝       ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║                                                                           ║
+║   ███╗   ███╗ █████╗ ██████╗ ███████╗    ██████╗ ██╗   ██╗              ║
+║   ████╗ ████║██╔══██╗██╔══██╗██╔════╝    ██╔══██╗╚██╗ ██╔╝              ║
+║   ██╔████╔██║███████║██║  ██║█████╗      ██████╔╝ ╚████╔╝               ║
+║   ██║╚██╔╝██║██╔══██║██║  ██║██╔══╝      ██╔══██╗  ╚██╔╝                ║
+║   ██║ ╚═╝ ██║██║  ██║██████╔╝███████╗    ██████╔╝   ██║                 ║
+║   ╚═╝     ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝    ╚═════╝    ╚═╝                 ║
+║                                                                           ║
+║   ███╗   ██╗ █████╗ ███╗   ███╗ █████╗ ███╗   ██╗                       ║
+║   ████╗  ██║██╔══██╗████╗ ████║██╔══██╗████╗  ██║                       ║
+║   ██╔██╗ ██║███████║██╔████╔██║███████║██╔██╗ ██║                       ║
+║   ██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══██║██║╚██╗██║                       ║
+║   ██║ ╚████║██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║                       ║
+║   ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝                       ║
+║                                                                           ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
 ```
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20with-❤️-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Powered%20by-AI-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+</p>
+
+</div>
+
+---
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║                    ⭐ Star this repo if you like it! ⭐                   ║
+║                                                                           ║
+║                  🐛 Found a bug? Open an issue! 🐛                       ║
+║                                                                           ║
+║              💡 Have an idea? Submit a pull request! 💡                  ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+```
+
+<p align="center">
+  <b>Made with 🔥 by Naman</b>
+</p>
+
+<p align="center">
+  <sub>Protecting digital authenticity, one frame at a time</sub>
+</p>
+
+</div>
