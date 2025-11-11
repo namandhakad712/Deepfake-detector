@@ -321,10 +321,10 @@ try:
     
     @app.route('/health', methods=['GET'])
     def health_check():
-        """Health check endpoint"""
+        """Health check endpoint - responds immediately without loading model"""
         try:
-            # Try to load model if not already loaded
-            model_status = load_huggingface_model()
+            # Don't load model here - just report current status
+            # Model will be loaded on first /analyze request
             
             return jsonify({
                 'success': True,
@@ -337,7 +337,7 @@ try:
                         'cors': True,
                         'file_handler': True,
                         'video_processor': True,
-                        'deepfake_detector': model_status,
+                        'deepfake_detector': model_loaded,
                         'model_loaded': model_loaded,
                         'model_type': 'huggingface',
                         'model_name': os.getenv('MODEL_NAME', 'Naman712/Deep-fake-detection')
