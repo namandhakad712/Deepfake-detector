@@ -3,7 +3,8 @@ flask>=2.3.0
 flask-cors>=4.0.0
 
 # Machine Learning dependencies
-torch>=2.6.0
+torch>=2.0.0
+torchvision>=0.15.0
 transformers>=4.40.0
 huggingface-hub>=0.17.0
 opencv-python>=4.8.0
