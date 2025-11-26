@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Naman712:$HF_TOKEN@huggingface.co/spaces/Naman712/deepfake-defender main
+        run: git push --force https://Naman712:$HF_TOKEN@huggingface.co/spaces/Naman712/deepfake-defender main
