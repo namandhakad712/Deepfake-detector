@@ -9,3 +9,4 @@ venv/
 .DS_Store
 model_cache/
 temp_video_*
+README.md
